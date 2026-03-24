@@ -97,7 +97,7 @@ VideoAutoPipeline/
 
 ```bash
 # Clone
-git clone https://github.com/phongvo/VideoAutoPipeline.git
+git clone https://github.com/kzxl/VideoAutoPipeline.git
 cd VideoAutoPipeline
 
 # Backend dependencies
