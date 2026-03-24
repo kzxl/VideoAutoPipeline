@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Video Creator</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <div id="app">
+    <header class="header">
+      <h1>🎬 Video Creator</h1>
+      <span class="badge">v3</span>
+    </header>
+    <main class="container">
+      <section data-component="search" class="card">
+        <div class="card-title"><span class="sn">1</span> Tìm ảnh theo chủ đề</div>
+        <div id="searchPanel"></div>
+        <div id="imageGrid"></div>
+      </section>
+      <div class="two-col">
+        <section class="card">
+          <div class="card-title"><span class="sn">2</span> Nội dung giọng đọc</div>
+          <div id="narrationPanel"></div>
+        </section>
+        <section class="card">
+          <div class="card-title"><span class="sn">3</span> Giọng đọc & Tốc độ</div>
+          <div id="voicePanel"></div>
+        </section>
+      </div>
+      <section class="card">
+        <div class="card-title"><span class="sn">4</span> Tuỳ chỉnh video</div>
+        <div id="optionsPanel"></div>
+      </section>
+      <section class="card">
+        <div class="card-title"><span class="sn">5</span> Tạo Video</div>
+        <div id="generatePanel"></div>
+      </section>
+    </main>
+    <div id="toast" class="toast"></div>
+  </div>
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>

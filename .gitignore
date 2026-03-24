@@ -1,0 +1,26 @@
+# output/
+output/*.mp4
+output/*.mp3
+output/*.txt
+output/*.srt
+
+# static files (generated)
+static/images/
+static/uploads/
+static/music/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
+
+# Node
+web/node_modules/
+web/dist/
+web/.vite/
+
+# IDE
+.vscode/
+.idea/
+*.swp
